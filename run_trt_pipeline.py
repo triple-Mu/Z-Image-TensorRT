@@ -266,7 +266,7 @@ def main(args: argparse.Namespace):
         generator=torch.Generator('cuda').manual_seed(42),
     ).images[0]
 
-    image.save("example_trt.png")
+    image.save("example.png")
 
 
 if __name__ == '__main__':
