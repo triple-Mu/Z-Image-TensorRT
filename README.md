@@ -17,7 +17,7 @@ The project was tested in the following environment:
 - [`Diffusers`](https://github.com/huggingface/diffusers/commit/152f7ca357c066c4af3d1a58cdf17662ef5a2f87) 0.36.0.dev0
 - [
   `ONNX`](https://files.pythonhosted.org/packages/8d/eb/30159bb6a108b03f2b7521410369a5bd8d296be3fbf0b30ab7acd9ef42ad/onnx-1.19.1-cp310-cp310-manylinux2014_x86_64.manylinux_2_17_x86_64.whl)
-  1.19.0
+  1.19.1
 - [
   `TensorRT`](https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/tars/TensorRT-10.13.0.35.Linux.x86_64-gnu.cuda-11.8.tar.gz)
   10.13.0.35
@@ -33,7 +33,7 @@ pip install torch==2.6.0 torchvision==0.21.0 torchaudio==2.6.0 --index-url https
 # Install Diffusers
 pip install git+https://github.com/huggingface/diffusers.git@fc337d585309c4b032e8d0180bea683007219df1
 # Install ONNX
-pip install onnx==1.19.0
+pip install onnx==1.19.1
 
 # Install TensorRT
 wget https://developer.nvidia.com/downloads/compute/machine-learning/tensorrt/10.13.0/tars/TensorRT-10.13.0.35.Linux.x86_64-gnu.cuda-11.8.tar.gz
