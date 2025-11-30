@@ -222,11 +222,11 @@ class ZImageTRTModel(ZImageTransformer2DModel):
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser()
     parser.add_argument("--model_path", type=str, required=True,
-                        help="Qwen-Image model path or hf model id")
+                        help="Z-Image model path or hf model id")
     parser.add_argument("--trt_path", type=str, required=True,
-                        help="trt engine path of Qwen-Image\'s dit")
+                        help="trt engine path of Z-Image\'s dit")
     parser.add_argument("--plugin_path", type=str, default=None,
-                        help="trt engine path of Qwen-Image\'s dit")
+                        help="trt engine path of Z-Image\'s dit")
     return parser.parse_args()
 
 
